@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+}
+
+#top-bar {
+    width: 100vw;
+    height: 95px;
+    background-color: #002E5D;
+}
+
+#top-bar-logo {
+    margin: 12px 22px;
+}
+
+#top-bar-logo:hover {
+    height: 60px;
+    margin: 14px 24px;
+}
+
+.top-bar-button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80%;
+    font-weight: 750;
+    width: 100px;
+    background-color: white;
+    color: #002E5D;
+    border-radius: 3px;
+    margin-right: 8px;
+    margin-top: 30px;
+    float: right;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#subscribe {
+    background-color: #002E5D;
+    color: white;
+}
+
+
+#nav-bar {
+    width: 100vw;
+    height: 55px;
+    background-color: white;
+}
+
+.nav-bar-button {
+    float: left;
+    padding: 18px 5px;
+    margin-left: 20px;
+    font-size: 115%;
+    font-weight: 750;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-bar-button:hover {
+    border-bottom: solid 2px grey;
+    padding-bottom: 14px;
+}
+
+#bars {
+    float: right;
+    margin-top: 5px;
+    padding: 9px 7px 12px 15px;
+    border-left: solid 2px lightgrey;
+}
+
+#bars:hover {
+    border-bottom: 2px grey solid;
+    margin-left: 7px;
+    padding-left: 8px;
+
+}
+
+#search {
+    float: right;
+    margin-top: 18px;
+    margin-right: 25px;
+    padding-left: 7px;
+}
+
+#search:hover {
+    border-bottom: 2px grey solid;
+    padding-bottom: 11px;
+}
+
+#ad-bar {
+    height: 90px;
+    width: 100vw;
+    background-color: lightgray;
+    padding: 15px;
+}
+
+#ad-area {
+    height: 90px;
+    width: 800px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+#news-area {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.major-story {
+    border-bottom: 1px lightgray solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #002E5D;
+    margin: 5px;
+    width: 500px;
+    background-color: grey;
+
+}
+
+.major-story:hover {
+    border: 3px solid lightgray;
+    margin: 2px;
+}
+
+.minor-story {
+    border-bottom: 1px lightgray solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #002E5D;
+    margin: 5px;
+    width: 200px;
+    background-color: grey;
+}
+
+.minor-story:hover {
+    border: 3px solid lightgray;
+    margin: 2px;
+}
+
+.major-header {
+    color: #002E5D;
+    margin-left: 2px;
+    font-size: 150%;
+    font-weight: 700;
+}
